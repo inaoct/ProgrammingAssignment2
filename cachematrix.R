@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## cacheSolve takes a matrix that was constructed by the makeCacheMatrix function
-## and returns the inverse of that matrix. The calculation of the inverse matrix happens only onces
+## and returns the inverse of that matrix. The calculation of the inverse matrix happens only once
 ## and the inverse matrix is stored in cache. Subsequent calls simply retrieve the cached value without 
 ## recalculating it.
 cacheSolve <- function(x, ...) {
